@@ -1,6 +1,8 @@
 name: Push commit
-on: push
-#on:
+#on: push
+on:
+  schedule:
+  - cron: '0 1 * * *' # 10:00 AM (JST)
 #  schedule:
 #  - cron: '*/5 * * * *'
 
